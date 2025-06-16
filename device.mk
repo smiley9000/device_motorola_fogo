@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# qcom encrpytion
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
