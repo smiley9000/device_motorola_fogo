@@ -48,19 +48,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-# Boot control HAL
+# Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
-
-PRODUCT_PACKAGES += \
-    bootctrl.holi
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.holi \
-    libgptutils \
-    libz \
-    libcutils
+    android.hardware.boot@1.1-impl-qti.recovery \
+    bootctrl.holi.recovery
 
 # fastbootd
 PRODUCT_PACKAGES += \
