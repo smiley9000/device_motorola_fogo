@@ -6,6 +6,7 @@
 #
 
 LOCAL_PATH := device/motorola/fogo
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
