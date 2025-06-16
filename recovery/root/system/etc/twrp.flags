@@ -13,7 +13,7 @@
 /modem          emmc        /dev/block/by-name/modem           								flags=slotselect;backup=1;flashimg=1
 
 
-/fsg                    emmc              /dev/block/by-name/fsg             flags=slotselect;backup=1;flashimg=1
+/fsg                    emmc              /dev/block/by-name/fsg             flags=slotselect;backup=1
 /cid                    emmc              /dev/block/by-name/cid             flags=backup=1
 /modemst1               emmc              /dev/block/by-name/modemst1        flags=backup=1
 /modemst2               emmc              /dev/block/by-name/modemst2        flags=backup=1
