@@ -72,6 +72,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
 TARGET_BOARD_PLATFORM := holi
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno619
+QCOM_BOARD_PLATFORMS +=holi
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
