@@ -48,7 +48,6 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
@@ -62,6 +61,14 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libgptutils \
     libz \
     libcutils
+
+# fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Update engine
 PRODUCT_PACKAGES += \
